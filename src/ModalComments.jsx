@@ -15,8 +15,6 @@ const socket = io.connect("http://localhost:80/unknown",{
 })
 
 
-
-
 function MyVerticallyCenteredModal(props) {
   const [usuario,setUsuario] = useState("")
   const getMe = async () => {
